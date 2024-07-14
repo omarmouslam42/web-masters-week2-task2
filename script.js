@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const value = e.target.textContent;
 
             if (button.classList.contains('number')) {
-                console.log(value);
+                // console.log(value);
                 currentInput += value;
                 display.value = value;
             } else if (value === 'C') {
